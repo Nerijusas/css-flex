@@ -1,0 +1,69 @@
+.container{
+	display: flex;
+	flex-flow: row wrap;
+	text-align: center;
+}
+
+.container > * {
+	flex: 1 100%;
+}
+
+header{
+	background-color: lightblue;
+}
+
+.mainsection{
+	display:flex;
+}
+
+.mainsection .content {
+	display: flex;
+	flex:3;
+}
+
+.mainsection .content main{
+	background-color: #FCCF23;
+	flex:4;
+}
+
+.mainsection .content section{
+	background-color: gray;
+	flex:2;
+}
+
+.mainsection aside{
+	display: flex;
+	flex:2;
+}
+
+.mainsection .content{
+
+}
+
+.mainsection aside .hero{
+	background-color: plum;
+}
+
+.mainsection aside .sidebar{
+	background-color: lightgreen;
+}
+
+.related {
+	display: flex;
+}
+
+.related .images{
+	flex:3;
+	background-color: green;
+}
+
+.related .posts{
+	flex:2;
+	background-color: pink;
+}
+
+footer{
+	order:4;
+	background-color: orange;
+}
+
